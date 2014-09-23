@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AdCallProcessorTest (1)" project="adara" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="com.adara.interview.AdCallProcessorTest" time="0.015">
+    <testcase name="chooseAd_HeavilyWeightedAds_ReturnRepeatedly" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+    <testcase name="chooseAd_OneAd_ReturnSame" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+    <testcase name="chooseAd_SameWeightAds_ReturnAll" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+    <testcase name="chooseAd_EmptyAds_ReturnZero" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+    <testcase name="chooseAd_MoreRequestsThanWeight_ReturnAdId" classname="com.adara.interview.AdCallProcessorTest" time="0.015"/>
+    <testcase name="chooseAd_AdsWithZeroWeights_NeverReturnThem" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+    <testcase name="chooseAd_NormalAds_ReturnAdId" classname="com.adara.interview.AdCallProcessorTest" time="0.0"/>
+  </testsuite>
+</testrun>

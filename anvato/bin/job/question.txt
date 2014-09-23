@@ -1,0 +1,16 @@
+You are expected to implement a producer consumer relationship between two threads.
+Both threads are running as long as the user types exit to the console.  
+Producer thread should create (construct) a Job object and put it into shared arraylist. (And then create another one without waiting for the first one to be consumed.)
+Consumer thread should take a single Job from the arraylist and then call job.consume(). That is the way to consume a job.
+
+You should modify Main.java, Consumer.java and Producer.java. You should modify Consumer and Producer and turn them into threads that perform the above mentioned tasks.
+While adding or removing and item from the queue, make sure that you do not run into ConcurrentModificationException.
+
+BONUS: Once the user types 'exit' , stop threads gracefully.  
+
+Hint: If you think that you should edit Job.java, that means you are on the wrong path.
+
+Side information: 
+The main thread creates three jobs and puts them into an arraylist.
+That arraylist is used to construct Consumer and Producer objects, and it is the shared object that both threads should use carefully.
+Main thread waits in a loop until the user types 'exit'.
